@@ -1,0 +1,13 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+.footnotes-ol{
+    font-size: 10px;
+    font-style: italic;
+    line-height: 2.2;
+    color: #595a5c;
+    font-family: Inter;
+}

@@ -1,0 +1,14 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+
+.description-p{
+    max-width: 28em;
+    font-size: 2.08333vw;
+    letter-spacing: -.04792vw;
+    text-align: center;
+    font-family: Inter;
+}

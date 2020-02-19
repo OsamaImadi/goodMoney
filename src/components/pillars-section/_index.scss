@@ -1,0 +1,45 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+
+
+.pillar-box{
+    width: 260px !important;
+    min-height: 180px;
+    padding: 21px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.15);
+    background: #fff;
+}
+
+.pillar-box-h1{
+    font-family: Inter;
+    text-align: center;
+    font-size: 60px;
+    line-height: .87;
+    letter-spacing: -.56px;
+    font-weight: bolder;
+    color: #22cb8e;
+}
+
+.pillar-box-h2{
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    line-height: 2.14;
+    letter-spacing: 5.83px;
+    color: #22cb8e;
+    font-weight: bold;
+}
+
+.pillar-box-p{
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.43;
+    color: #acacad;
+}
